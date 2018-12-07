@@ -6,13 +6,20 @@ form {
 }
 
 #btnCount {
-  padding: 20px;
-  font-size: 16px;
+  padding: 10px;
+  font-size: 14px;
 }
 
 .logo {
   animation: App-logo-spin infinite 20s linear;
-  height: 15vmin;
+  height: 10vmin;
+  margin: 0 auto;
+}
+
+#result {
+  width: 45%;
+  margin: 10px auto;
+  /* display: none; */
 }
 
 @keyframes App-logo-spin {

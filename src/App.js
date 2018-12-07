@@ -2,13 +2,14 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Button from '@material-ui/core/Button';
-import { AppHeader } from './components/AppHeader.js'
+import { AppHeader } from './components/AppHeader.js';
 import TextField from '@material-ui/core/TextField';
+import { AppTable } from './components/AppTable.js';
 
 class App extends Component {
 
   consider() {
-
+    
   }
 
 
@@ -28,6 +29,7 @@ class App extends Component {
         </div>
 
         <div id="result">
+          <AppTable />
         </div>
       </section>
     );
